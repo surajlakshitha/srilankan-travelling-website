@@ -1,0 +1,46 @@
+body,html{
+  height:100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("sunset-beach-palm-trees.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.band-name {
+    font-family:Apple Chancery, cursive;
+    font-weight: 900;
+    color:white;    
+}
+
+.band-name-large {
+    font-size: 6em;
+    margin:75px 0 0 550px;	 
+}
+
+.band-name-small{
+    font-size: 2em;
+    margin:0 0 0 675px;	
+}
+
+.band-name-smaller{
+    font-size: 2em;
+    margin:75px 0 0 560px;
+}
+	
+	
+li {
+    display: inline;
+    margin:100px 0 0 150px;
+    font-size: 2em;
+    font-weight: 900;
+    color:white;
+}
+
+.pad{
+    padding:150px;
+}

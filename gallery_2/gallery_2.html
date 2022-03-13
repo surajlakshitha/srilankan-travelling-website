@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Temple of the Tooth</title>
+</head>
+<body>
+
+<h2>Gallery of Temple of the Tooth
+<a href="../gallery_main/gallery_main.html" class="previous"><b>&laquo; Back</b></a>
+</h2>
+<div class="body">
+
+<div class="pulldownbackgroundcolor">
+<label>Select Background Colour :  </label>
+<select name="colorpick" onchange="backgroundcolor(this);" style="width:100px">
+<option value="0">Select</option>
+<option value="1">black</option>
+<option value="2">white</option>
+<option value="3">powderblue</option>
+<option value="3">cyan</option>
+<option value="3">grey</option>
+</select>
+</div>
+
+
+<div class="pulldownfontcolor">
+<label> Select Font Colour : </label>
+<select name="colorpick" onchange="fontcolor(this);" style="width:100px">
+<option value="0">select</option>
+<option value="1">white</option>
+<option value="2">black</option>
+<option value="3">red</option>
+<option value="3">blue</option>
+<option value="3">Yellow</option>
+</select>
+</div>
+
+
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="temple/temple1.jpg" alt="FRONT VIEW OF TEMPLE OF THE TOOTH" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="temple/temple2.jpg" alt="AERIAL VIEW OF TEMPLE OF THE TOOTH" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="temple/temple3.jpg" alt="TEMPLE OF THE TOOTH RELIC" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="temple/temple4.jpg" alt="INSIDE OF TEMPLE OF THE TOOTH" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="temple/temple5.jpg" alt="BUDDHIST STATUE IN THE TEMPLE OF THE TOOTH" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="temple/temple6.jpg" alt="TEMPLE OF THE TOOTH RELIC" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row" >
+    <div class="column">
+      <img class="demo cursor" src="temple/temple1.jpg" style="width:100%" onmouseover="currentSlide(1)" alt="FRONT VIEW OF TEMPLE OF THE TOOTH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="temple/temple2.jpg" style="width:100%" onmouseover="currentSlide(2)" alt="AERIAL VIEW OF TEMPLE OF THE TOOTH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="temple/temple3.jpg" style="width:100%" onmouseover="currentSlide(3)" alt="TEMPLE OF THE TOOTH RELIC">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="temple/temple4.jpg" style="width:100%" onmouseover="currentSlide(4)" alt="INSIDE OF TEMPLE OF THE TOOTH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="temple/temple5.jpg" style="width:100%" onmouseover="currentSlide(5)" alt="BUDDHIST STATUE IN THE TEMPLE OF THE TOOTH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="temple/temple6.jpg" style="width:100%" onmouseover="currentSlide(6)" alt="TEMPLE OF THE TOOTH RELIC">
+    </div>
+  </div>
+	
+</div>
+</div>
+
+<script src="javascript.js" >
+</script>
+</body>
+</html>

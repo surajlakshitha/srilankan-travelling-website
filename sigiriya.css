@@ -1,0 +1,154 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 18px;
+}
+
+.h1{
+  font-size: 25px;
+}
+
+.para{
+  text-align: center;
+  line-height: 1.7;
+  padding: 45px;
+}
+	
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {	
+  color: #f2f2f2;
+  font-size: 120x;
+  padding: 20px 5px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0px 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+	
+}
+
+.nav li {
+    display: inline;
+	margin:0 20px 0 0;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+	
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+	background-color:#656262;
+}
+
+.img{
+float:left;
+
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav a:hover {
+    background-color:#7B7272;
+}
+
+.main-header {
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.main-footer {
+    background-color: #656262;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+  
+    align-items: left;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+  
+	display: flex;
+}
+
+.footer-nav li {
+  
+   padding: 0 1%;
+   margin-left:auto;
+   margin-right:auto;	
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+

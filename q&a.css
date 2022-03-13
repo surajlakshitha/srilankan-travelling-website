@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+  .main-header {
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.nav ul {
+    margin: 0;
+	
+}
+
+.nav li {
+    display: inline;
+	margin:0 10px 0 0;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+	
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+	background-color:#656262;
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav a:hover {
+    background-color:#7B7272;
+}
+
+
+
+.main-footer {
+    background-color: #656262;
+    color: white;
+    padding: .25em  0;
+   margin:100px 0 0 0;
+ 
+
+}
+
+.main-footer-container {
+  
+    align-items: left;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+  
+	display: flex;
+}
+
+.footer-nav li {
+  
+   padding: 0 1%;
+   margin-left:auto;
+   margin-right:auto;	
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.page-header{
+    font-size: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+    font-optical-sizing: auto;
+    font-feature-settings: "liga";
+    -webkit-font-feature-settings: "liga";
+}
+
+.input-tag{
+    height: 45px;
+    width: 500px;
+    
+}
+
+.input-tag-description{
+    height: 100px;
+    width: 500px;
+}
+
+::-webkit-input-placeholder { 
+    color: black;
+    letter-spacing: 30px;
+    text-align: center;
+    box-align: center;
+  }
+  ::-moz-placeholder { 
+    color: black;
+    letter-spacing: 5px;
+  }
+  :-ms-input-placeholder {
+    color: black;
+    letter-spacing: 5px;
+  }
+  :-moz-placeholder {
+    color: black;
+    letter-spacing: 5px;
+  }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.btn-submit{
+    background-color: white; 
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn-submit:hover{
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	 <link rel="stylesheet" href="Rate Us.css">
+	
+<body>
+	
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+				<img class="img" src="logo2.new.png">
+			
+                    
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Store.html">STORE</a></li>
+                    <li><a href="Quiz.html">QUIZ</a></li>
+					<li><a href="Store.html">CART</a></li>
+                    <li><a href="gallery_main.html">GALLERY</a></li>
+                    <li><a href="sitemap.html">SITE MAP</a></li>
+					<li><a href="Team.html">TEAM</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+		   <section class="container content-section">
+		<h2 class="section-header">Rate Our Site Now</h2>
+			<form name="myForm"  onsubmit="return validateForm()" method="post" required>
+			<span class="shop-label">Your Name:</span>
+			<input type="text" name="name" id="name" size="20" />
+			<span class="shop-label">Email:</span>
+			<input type="text" name="email" id="email" size="20" />
+			<span class="shop-label">Comments:</span>
+			<input type="text" name="comment" size="20" />
+			<span class="shop-label">Rate Us</span>
+			
+			<select name="rateus" id="rate" required>
+			
+<option value="0" >0-Fair</option>
+<option value="5">5-Good</option>
+<option value="7">7-Very Good</option>
+<option value="10">10-Excellent</option><br>
+</select>
+<button class="btn btn-primary btn-purchase" type="submit" value="Submit">SUBMIT</button>
+	</form>
+<a href="q&a.html"><button class="btn btn-primary btn-purchase" type="submit" value="Submit">ASK US</button></a>
+		
+        </section>
+		 <footer class="main-footer">
+            <div class="main-footer-container">
+              
+                <ul class="nav footer-nav">
+                   
+				
+			
+                    
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Store.html">STORE</a></li>
+                    <li><a href="Quiz.html">QUIZ</a></li>
+					<li><a href="Store.html">CART</a></li>
+                    <li><a href="gallery_main.html">GALLERY</a></li>
+                    <li><a href="sitemap.html">SITE MAP</a></li>
+					<li><a href="Team.html">TEAM</a></li>
+					<li><a href="thejana.html">PAGE EDITOR</a></li>
+					
+					 
+				
+					 <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="insta.jfif">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/" target="_blank">
+                            <img src="link.png">
+                        </a>
+                    </li>
+					<li>
+                        <a href="https://twitter.com/?lang=en" target="_blank">
+                            <img src="download.png">
+                        </a>
+                    </li>
+					<li><a href="Rate Us.html">RATE US</a></li>
+                </ul>
+            </div>
+        </footer>
+		<script>
+		function validateForm() {
+  var x = document.forms["myForm"]["name"].value;
+  if (x == "" || x == null) {
+    alert("Please Fill All The Fields.");
+    return false;
+	}
+	
+	 var y = document.forms["myForm"]["email"].value;
+  if (y == "" || y == null) {
+    alert("Please Fill All The Fields.");
+    return false;
+	}
+	
+	 var z = document.forms["myForm"]["comment"].value;
+  if (z == "" || z == null) {
+    alert("Please Fill All The Fields.");
+    return false;
+	}
+	
+	 var v = document.forms["myForm"]["rateus"].value;
+  if (v == "" || v == null) {
+    alert("Please Fill All The Fields.");
+    return false;
+}
+if(x!=null && y!=null && z!=null && v!=null){
+ alert("Dear "+document.getElementById("name").value +", Thank You For Your Feedback.");
+}
+}
+	</script>
+		</body>
+		</html>
+        

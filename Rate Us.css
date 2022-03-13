@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+	
+}
+
+.nav li {
+    display: inline;
+	margin:0 20px 0 0;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+	
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+	background-color:#656262;
+}
+
+.img{
+float:left;
+
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav a:hover {
+    background-color:#7B7272;
+}
+
+.main-header {
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.main-footer {
+    background-color: #656262;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+  
+    align-items: left;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+  
+	display: flex;
+}
+
+.footer-nav li {
+  
+   padding: 0 1%;
+   margin-left:auto;
+   margin-right:auto;	
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color:#2D9CDB ;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color:#56CCF2 ;
+}
+
+
+.shop-label {
+    display: block;
+    width: 100%;
+    text-align:left;
+	margin-left:150px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+input[type=text], select {
+  width:75%;
+  padding: 12px 10px;
+  margin:10px 0 10px 150px;
+   margin-right:100px;
+  font-family: "sans-serif";
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

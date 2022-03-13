@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Sigiriya</title>
+</head>
+<body>
+
+<h2>Gallery of Sigiriya
+<a href="../gallery_main/gallery_main.html" class="previous"><b>&laquo; Back</b></a>
+</h2>
+<div class="body">
+
+<div class="pulldownbackgroundcolor">
+<label>Select Background Colour :  </label>
+<select name="colorpick" onchange="backgroundcolor(this);" style="width:100px">
+<option value="0">Select</option>
+<option value="1">black</option>
+<option value="2">white</option>
+<option value="3">powderblue</option>
+<option value="3">cyan</option>
+<option value="3">grey</option>
+</select>
+</div>
+
+
+<div class="pulldownfontcolor">
+<label> Select Font Colour : </label>
+<select name="colorpick" onchange="fontcolor(this);" style="width:100px">
+<option value="0">select</option>
+<option value="1">white</option>
+<option value="2">black</option>
+<option value="3">red</option>
+<option value="3">blue</option>
+<option value="3">Yellow</option>
+</select>
+</div>
+
+
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="sigiriya/sigiriya1.jpg" alt="SIGIRIYA" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="sigiriya/sigiriya2.jpg" alt="TOP VIEW OF SIGIRIYA" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="sigiriya/sigiriya3.jpg" alt="SIDE VIEW OF SIGIRIYA" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="sigiriya/sigiriya4.jpg" alt="SIGIRIYA LION'S PAW" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="sigiriya/sigiriya5.jpg" alt="SIGIRIYA LION'S PAW" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="sigiriya/sigiriya6.jpg" alt="INSIDE OF SIGIRIYA" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row" >
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya1.jpg" style="width:100%" onmouseover="currentSlide(1)" alt="SIGIRIYA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya2.jpg" style="width:100%" onmouseover="currentSlide(2)" alt="TOP VIEW OF SIGIRIYA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya3.jpg" style="width:100%" onmouseover="currentSlide(3)" alt="SIDE VIEW OF SIGIRIYA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya4.jpg" style="width:100%" onmouseover="currentSlide(4)" alt="SIGIRIYA LION'S PAW">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya5.jpg" style="width:100%" onmouseover="currentSlide(5)" alt="SIGIRIYA LION'S PAW">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="sigiriya/sigiriya6.jpg" style="width:100%" onmouseover="currentSlide(6)" alt="INSIDE OF SIGIRIYA">
+    </div>
+  </div>
+	
+</div>
+</div>
+
+<script src="javascript.js" >
+</script>
+</body>
+</html>
